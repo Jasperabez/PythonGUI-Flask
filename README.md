@@ -1,5 +1,5 @@
 # PythonGUI-Flask
-quick template/example of setting up a python GUI app using Flask
+Quick template/example of setting up a python GUI app using Flask, and flaskwebgui
 
 Part of my exploration in creating GUI applications with python, to know more check out [my blog](https://jasperabez.github.io/)
 
