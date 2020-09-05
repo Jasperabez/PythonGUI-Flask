@@ -47,4 +47,4 @@ When freezing using pyintaller, use flag `--add-data` for any templates and stat
 
 # License
 
-[MIT License](./LICENSE.md)
+[MIT License](./LICENSE)
