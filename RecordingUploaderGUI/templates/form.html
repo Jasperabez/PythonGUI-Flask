@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Create New Post</h1>
+    <form action="" method="post" novalidate enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.recTitle.label }}<br>
+            {{ form.recTitle(size=32) }}<br>
+            {% for error in form.recTitle.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.recLocation.label }}<br>
+            {{ form.recLocation(size=32) }}<br>
+            {% for error in form.recLocation.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.recDate.label }}<br>
+            {{ form.recDate(size=32) }}<br>
+            {% for error in form.recDate.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.recAudio.label }}<br>
+            {{ form.recAudio}}<br>
+            {% for error in form.recAudio.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
