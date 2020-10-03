@@ -1,3 +1,5 @@
+ICON_RELATIVE_PATH = "RecordingUploaderGUI/static/logo.png"
+WINDOW_TITLE = "RecordingUploader"
 DEBUG = False
 SECRET_KEY = 'xxx-example-key'
 FTP_HOST = "xxx-example-host"
