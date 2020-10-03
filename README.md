@@ -1,5 +1,5 @@
 # PythonGUI-Flask
-quick template/example of setting up a python GUI app using Flask
+Quick template/example of setting up a python GUI app using Flask, and flaskwebgui
 
 Part of my exploration in creating GUI applications with python, to know more check out [my blog](https://jasperabez.github.io/)
 
@@ -44,3 +44,7 @@ When freezing using pyintaller, use flag `--add-data` for any templates and stat
 # Credits
 - https://elc.github.io/posts/executable-flask-pyinstaller/ for `--add-data` flag
 - [Stackoverflow](https://stackoverflow.com/questions/32149892/flask-application-built-using-pyinstaller-not-rendering-index-html) for correct folder redirection in `__init__.py`
+
+# License
+
+[MIT License](./LICENSE)
