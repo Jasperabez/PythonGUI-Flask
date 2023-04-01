@@ -4,15 +4,17 @@ click==7.1.2
 Flask==1.0
 Flask-WTF==0.14.3
 idna==2.10
+importlib-metadata==6.1.0
 itsdangerous==0.24
-Jinja2==2.10
-MarkupSafe==1.1.1
+Jinja2==2.11.3
+MarkupSafe==2.0.1
 pydub==0.24.1
-PyQt5==5.15.0
-PyQt5-sip==12.8.1
-PyQtWebEngine==5.15.1
+PySide2==5.15.2
 requests==2.24.0
+shiboken2==5.15.2
+typing_extensions==4.5.0
 urllib3==1.25.10
-WebUI @ git+git://github.com/jasperabez/flask-desktop.git@96109c831ff9d33fc45e785c5f2e6eb5f9614876
-Werkzeug==0.15.3
+WebUI @ git+https://github.com/Widdershin/flask-desktop.git@9f0e9e033909516e1c0669fdf38e9c9c904fe7ac
+Werkzeug==0.15.5
 WTForms==2.3.3
+zipp==3.15.0

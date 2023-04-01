@@ -1,6 +1,6 @@
 from flask import Flask
 from webui import WebUI
-import PyQt5.QtGui as gui
+import PySide2.QtGui as gui
 import sys, os
 
 import config
